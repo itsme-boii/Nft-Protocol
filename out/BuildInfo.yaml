@@ -1,0 +1,31 @@
+---
+compiled_package_info:
+  package_name: Keepsake
+  address_alias_instantiation:
+    Oasis: "0000000000000000000000000000000000000000000000000000000000000000"
+    nft_protocol: 49da9700dd1db4f99e46fdaad2b867d32e0adb068e162c33eeeed3ab1416ad09
+    originmate: 007e1dfb676b196ed9f2231008e3cfbf28bd5e8f36a88baa3b424f71bbb2ed12
+    std: "0000000000000000000000000000000000000000000000000000000000000001"
+    sui: "0000000000000000000000000000000000000000000000000000000000000002"
+  source_digest: 63F70F72AFBE7962914C2049496FE11184F6060ADEEE7AB2549BDE2A56749A3C
+  build_flags:
+    dev_mode: false
+    test_mode: false
+    generate_docs: false
+    install_dir: ~
+    force_recompilation: false
+    lock_file: "./Move.lock"
+    fetch_deps_only: false
+    skip_fetch_latest_git_deps: false
+    default_flavor: sui
+    default_edition: ~
+    deps_as_root: false
+    silence_warnings: false
+    warnings_are_errors: false
+    additional_named_addresses: {}
+    no_lint: false
+dependencies:
+  - MoveStdlib
+  - NftProtocol
+  - Originmate
+  - Sui
